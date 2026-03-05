@@ -221,7 +221,7 @@
 &kp TAB           &kp Q              &kp W                 &kp E                 &kp R                   &longPress LG(T) T    &kp DOWN_ARROW   &kp Y      &kp U               &kp I                  &kp O                  &PdashDBTap  &SlashDBTap
 &kp CAPSLOCK      &HMLmulti LCTRL A  &HMLmulti LEFT_ALT S  &HMLmulti LEFT_GUI D  &HMShiftL LEFT_SHIFT F  &kp G                 &kp LEFT_ARROW   &kp H      &HMR RIGHT_SHIFT J  &HMRmulti RIGHT_GUI K  &HMRmulti RIGHT_ALT L  &kp SEMI     &kp APOS
 &kp LSHFT         &kp Z              &longPress LG(X) X    &longPress LG(C) C    &longPress RG(V) V      &kp B                 &kp RIGHT_ARROW  &kp N      &kp M               &kp COMMA              &kp DOT                &kp FSLH     &kp ENTER
-&kp C_MUTE        &kp LCTRL          &kp LEFT_GUI          &kp LEFT_ALT          &to 1                   &kp SPACE             &kp ENTER        &kp SPACE  &to 3               &trans                 &trans                 &kp DELETE
+&kp C_MUTE        &kp LCTRL          &kp LEFT_GUI          &kp LEFT_ALT          &to 1                   &kp SPACE             &kp ENTER        &kp SPACE  &to 3               &mo 2                  &trans                 &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
