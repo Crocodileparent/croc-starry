@@ -183,16 +183,6 @@
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
-
-        XCzoomout {
-            bindings = <&kp C_AC_ZOOM_OUT>;
-            key-positions = <53 54>;
-        };
-
-        SDzoomin {
-            bindings = <&kp C_AC_ZOOM_IN>;
-            key-positions = <41 42>;
-        };
     };
 
     macros {
