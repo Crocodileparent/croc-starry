@@ -17,7 +17,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: Q, h: '$$mdi:apple-keyboard-control$$'}
   - W
-  - E
+  - '&EperiodDBTap'
   - R
   - {t: T, h: Gui+T}
   - $$mdi:arrow-down-bold$$
