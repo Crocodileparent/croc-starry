@@ -217,9 +217,9 @@
             layers = <0>;
         };
 
-        Layer3YUI {
+        Layer3DFG {
             bindings = <&tog 3>;
-            key-positions = <20 21 22>;
+            key-positions = <29 30 31>;
             layers = <0>;
         };
     };
