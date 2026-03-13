@@ -40,7 +40,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - '&ShiftEnterDBTap'
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - {t: X, h: X}
   - {t: C, h: C}
@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
@@ -331,6 +331,6 @@ combos:
 - p: [16, 17, 18]
   k: {t: layer1, h: toggle}
   l: [LAYER0, layer1]
-- p: [29, 30, 31]
+- p: [20, 21, 22]
   k: {t: layer3, h: toggle}
   l: [LAYER0, layer3]
