@@ -155,11 +155,11 @@
         hold-trigger-key-positions = <0 1 2 3 4 5 13 14 15 16 17 18 26 27 28 29 30 31 39 40 41 42 43 44 52 53 54 55 56 57>;
     };
 
-    ZeroDashDBTap: ZeroDashDBTap {
+    NineMinusDBTap: NineMinusDBTap {
         compatible = "zmk,behavior-tap-dance";
-        label = "ZERODASHDBTAP";
+        label = "NINEMINUSDBTAP";
         #binding-cells = <0>;
-        bindings = <&kp N0>, <&kp MINUS>;
+        bindings = <&kp N9>, <&kp MINUS>;
 
         tapping-term-ms = <200>;
     };
@@ -187,6 +187,15 @@
         label = "EPERIODDBTAP";
         #binding-cells = <0>;
         bindings = <&kp E>, <&kp PERIOD>;
+
+        tapping-term-ms = <200>;
+    };
+
+    ZeroPlusDBTap: ZeroPlusDBTap {
+        compatible = "zmk,behavior-tap-dance";
+        label = "ZEROPLUSDBTAP";
+        #binding-cells = <0>;
+        bindings = <&kp N0>, <&kp EQUAL>;
 
         tapping-term-ms = <200>;
     };
@@ -237,7 +246,7 @@
 
         layer0 {
             bindings = <
-&BKspaceESCDBTap  &kp N1             &kp N2                &kp N3                &kp N4                  &kp N5                &kp UP_ARROW     &kp N6     &kp N7              &kp N8                 &kp N9                 &ZeroDashDBTap        &kp BACKSPACE
+&BKspaceESCDBTap  &kp N1             &kp N2                &kp N3                &kp N4                  &kp N5                &kp UP_ARROW     &kp N6     &kp N7              &kp N8                 &NineMinusDBTap        &ZeroPlusDBTap        &kp BACKSPACE
 &kp TAB           &kp Q              &kp W                 &EperiodDBTap         &kp R                   &longPress LG(T) T    &kp DOWN_ARROW   &kp Y      &kp U               &kp I                  &kp O                  &kp P                 &SlashDBTap
 &kp CAPSLOCK      &HMLmulti LCTRL A  &HMLmulti LEFT_ALT S  &HMLmulti LEFT_GUI D  &HMShiftL LEFT_SHIFT F  &kp G                 &kp LEFT_ARROW   &kp H      &HMR RIGHT_SHIFT J  &HMRmulti RIGHT_GUI K  &HMRmulti RIGHT_ALT L  &HMLmulti RCTRL SEMI  &kp APOS
 &kp LSHFT         &kp Z              &longPress LG(X) X    &longPress LG(C) C    &longPress RG(V) V      &kp B                 &kp RIGHT_ARROW  &kp N      &kp M               &kp COMMA              &kp DOT                &kp FSLH              &kp ENTER
@@ -258,20 +267,20 @@
             >;
 
             display-name = "layer1";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         layer_2 {
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp UP     &trans  &trans  &trans  &trans     &trans       &trans
-&trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &kp DOWN   &trans  &trans  &trans  &trans     &trans       &trans
-&trans  &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &kp LEFT   &trans  &trans  &trans  &trans     &trans       &trans
-&trans  &sys_reset    &trans          &bootloader   &trans        &trans          &kp RIGHT  &trans  &trans  &trans  &soft_off  &bootloader  &trans
-&trans  &trans        &trans          &trans        &trans        &trans          &kp RET    &trans  &trans  &trans  &trans     &trans
+&trans      &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp UP     &trans  &trans  &trans  &trans     &trans       &trans
+&trans      &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &kp DOWN   &trans  &trans  &trans  &trans     &trans       &trans
+&trans      &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &kp LEFT   &trans  &trans  &trans  &trans     &trans       &trans
+&trans      &sys_reset    &trans          &bootloader   &trans        &trans          &kp RIGHT  &trans  &trans  &trans  &soft_off  &bootloader  &trans
+&kp C_MUTE  &trans        &trans          &trans        &trans        &trans          &kp RET    &trans  &trans  &trans  &trans     &trans
             >;
 
             display-name = "layer2";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         layer_3 {
