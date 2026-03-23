@@ -328,7 +328,7 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
-- p: [16, 17, 18]
+- p: [14, 15, 16]
   k: {t: layer1, h: toggle}
   l: [LAYER0, layer1]
 - p: [20, 21, 22]
