@@ -213,7 +213,7 @@
 
         Layer1ERT {
             bindings = <&tog 1>;
-            key-positions = <16 17 18>;
+            key-positions = <14 15 16>;
             layers = <0 1>;
         };
 
