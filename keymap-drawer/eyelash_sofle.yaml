@@ -66,19 +66,19 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   layer1:
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
   - F4
-  - F5
-  - F6
+  - F4
   - $$mdi:arrow-up-bold$$
+  - F6
   - F7
   - F8
   - F9
   - F10
   - F11
-  - F12
   - {t: '`', s: '~'}
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -89,7 +89,7 @@ layers:
   - PG UP
   - HOME
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F12
   - {t: '-', s: _}
   - {t: '=', s: +}
   - RGB TOG
