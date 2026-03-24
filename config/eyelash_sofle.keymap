@@ -211,21 +211,21 @@
             key-positions = <14 28 40>;
         };
 
-        Layer1ERT {
+        Layer1 {
             bindings = <&tog 1>;
-            key-positions = <14 15 16>;
+            key-positions = <14 15 16 17>;
             layers = <0 1>;
         };
 
-        Layer3DFG {
+        Layer3Rgt {
             bindings = <&tog 3>;
-            key-positions = <20 21 22>;
+            key-positions = <20 21 22 23>;
             layers = <0 3>;
         };
 
         Layer3Lft {
             bindings = <&tog 3>;
-            key-positions = <16 17 18>;
+            key-positions = <27 28 29 30>;
             layers = <0 3>;
         };
     };
