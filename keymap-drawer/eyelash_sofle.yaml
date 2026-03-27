@@ -8,7 +8,7 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - $$mdi:arrow-up-bold$$
-  - {t: '6', s: ^}
+  - '&SIXhomeDBTap'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - '&NineMinusDBTap'
@@ -21,7 +21,7 @@ layers:
   - R
   - {t: T, h: Gui+T}
   - $$mdi:arrow-down-bold$$
-  - Y
+  - '&YpgupDBTap'
   - U
   - I
   - O
@@ -34,7 +34,7 @@ layers:
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
-  - H
+  - '&HpgdwnDBTap'
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: RIGHT GUI}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
@@ -47,7 +47,7 @@ layers:
   - {t: V, h: Gui+V}
   - B
   - $$mdi:arrow-right-bold$$
-  - N
+  - '&NendDBTap'
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
