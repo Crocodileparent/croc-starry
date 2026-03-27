@@ -97,42 +97,6 @@
         require-prior-idle-ms = <125>;
     };
 
-    SEVupDBTap: SEVupDBTap {
-        compatible = "zmk,behavior-tap-dance";
-        label = "SEVUPDBTAP";
-        #binding-cells = <0>;
-        bindings = <&kp NUMBER_7>, <&kp UP>;
-
-        tapping-term-ms = <200>;
-    };
-
-    YleftDBTap: YleftDBTap {
-        compatible = "zmk,behavior-tap-dance";
-        label = "YLEFTDBTAP";
-        #binding-cells = <0>;
-        bindings = <&kp Y>, <&kp LEFT>;
-
-        tapping-term-ms = <200>;
-    };
-
-    UdownDBTap: UdownDBTap {
-        compatible = "zmk,behavior-tap-dance";
-        label = "UDOWNDBTAP";
-        #binding-cells = <0>;
-        bindings = <&kp U>, <&kp DOWN>;
-
-        tapping-term-ms = <200>;
-    };
-
-    IrightDBTap: IrightDBTap {
-        compatible = "zmk,behavior-tap-dance";
-        label = "IRIGHTDBTAP";
-        #binding-cells = <0>;
-        bindings = <&kp I>, <&kp RIGHT>;
-
-        tapping-term-ms = <200>;
-    };
-
     SlashDBTap: SlashDBTap {
         compatible = "zmk,behavior-tap-dance";
         label = "SLASHDBTAP";
@@ -173,15 +137,6 @@
         tapping-term-ms = <200>;
     };
 
-    ShiftEnterDBTap: ShiftEnterDBTap {
-        compatible = "zmk,behavior-tap-dance";
-        label = "SHIFTENTERDBTAP";
-        #binding-cells = <0>;
-        bindings = <&kp LEFT_SHIFT>, <&kp ENTER>;
-
-        tapping-term-ms = <200>;
-    };
-
     EperiodDBTap: EperiodDBTap {
         compatible = "zmk,behavior-tap-dance";
         label = "EPERIODDBTAP";
@@ -196,6 +151,42 @@
         label = "ZEROPLUSDBTAP";
         #binding-cells = <0>;
         bindings = <&kp N0>, <&kp EQUAL>;
+
+        tapping-term-ms = <200>;
+    };
+
+    YpgupDBTap: YpgupDBTap {
+        compatible = "zmk,behavior-tap-dance";
+        label = "YPGUPDBTAP";
+        #binding-cells = <0>;
+        bindings = <&kp Y>, <&kp PAGE_UP>;
+
+        tapping-term-ms = <200>;
+    };
+
+    SIXhomeDBTap: SIXhomeDBTap {
+        compatible = "zmk,behavior-tap-dance";
+        label = "SIXHOMEDBTAP";
+        #binding-cells = <0>;
+        bindings = <&kp NUMBER_6>, <&kp HOME>;
+
+        tapping-term-ms = <200>;
+    };
+
+    HpgdwnDBTap: HpgdwnDBTap {
+        compatible = "zmk,behavior-tap-dance";
+        label = "HPGDWNDBTAP";
+        #binding-cells = <0>;
+        bindings = <&kp H>, <&kp PAGE_DOWN>;
+
+        tapping-term-ms = <200>;
+    };
+
+    NendDBTap: NendDBTap {
+        compatible = "zmk,behavior-tap-dance";
+        label = "NENDDBTAP";
+        #binding-cells = <0>;
+        bindings = <&kp N>, <&kp END>;
 
         tapping-term-ms = <200>;
     };
