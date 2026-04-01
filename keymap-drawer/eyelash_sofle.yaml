@@ -17,7 +17,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - '&EperiodDBTap'
+  - E
   - R
   - {t: T, h: Gui+T}
   - $$mdi:arrow-down-bold$$
