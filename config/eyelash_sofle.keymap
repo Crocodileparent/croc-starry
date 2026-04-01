@@ -137,15 +137,6 @@
         tapping-term-ms = <200>;
     };
 
-    EperiodDBTap: EperiodDBTap {
-        compatible = "zmk,behavior-tap-dance";
-        label = "EPERIODDBTAP";
-        #binding-cells = <0>;
-        bindings = <&kp E>, <&kp PERIOD>;
-
-        tapping-term-ms = <200>;
-    };
-
     ZeroPlusDBTap: ZeroPlusDBTap {
         compatible = "zmk,behavior-tap-dance";
         label = "ZEROPLUSDBTAP";
@@ -244,7 +235,7 @@
         layer0 {
             bindings = <
 &BKspaceESCDBTap  &kp N1             &kp N2                &kp N3                &kp N4                  &kp N5                &kp UP_ARROW     &SIXhomeDBTap  &kp N7                   &kp N8                 &NineMinusDBTap        &ZeroPlusDBTap        &kp BACKSPACE
-&kp TAB           &kp Q              &kp W                 &EperiodDBTap         &kp R                   &longPress LG(T) T    &kp DOWN_ARROW   &YpgupDBTap    &kp U                    &kp I                  &kp O                  &kp P                 &SlashDBTap
+&kp TAB           &kp Q              &kp W                 &kp E                 &kp R                   &longPress LG(T) T    &kp DOWN_ARROW   &YpgupDBTap    &kp U                    &kp I                  &kp O                  &kp P                 &SlashDBTap
 &kp CAPSLOCK      &HMLmulti LCTRL A  &HMLmulti LEFT_ALT S  &HMLmulti LEFT_GUI D  &HMShiftL LEFT_SHIFT F  &kp G                 &kp LEFT_ARROW   &HpgdwnDBTap   &HMShiftR RIGHT_SHIFT J  &HMRmulti RIGHT_GUI K  &HMRmulti RIGHT_ALT L  &HMLmulti RCTRL SEMI  &kp APOS
 &kp LSHFT         &kp Z              &longPress LG(X) X    &longPress LG(C) C    &longPress RG(V) V      &kp B                 &kp RIGHT_ARROW  &NendDBTap     &kp M                    &kp COMMA              &kp DOT                &kp FSLH              &kp ENTER
 &kp C_MUTE        &kp LCTRL          &kp LEFT_GUI          &kp LALT              &kp RET                 &kp SPACE             &kp ENTER        &kp SPACE      &kp RET                  &mo 2                  &trans                 &kp DELETE
