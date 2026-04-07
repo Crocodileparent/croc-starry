@@ -171,7 +171,7 @@
 
         Layer3Lft {
             bindings = <&tog 3>;
-            key-positions = <30 31>;
+            key-positions = <17 16>;
             layers = <0 3>;
         };
     };
