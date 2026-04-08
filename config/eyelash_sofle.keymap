@@ -168,6 +168,18 @@
             key-positions = <57 59>;
             layers = <0 3>;
         };
+
+        Layer1- {
+            bindings = <&tog 1>;
+            key-positions = <56 27>;
+            layers = <0 1>;
+        };
+
+        Layer3- {
+            bindings = <&tog 1>;
+            key-positions = <60 37>;
+            layers = <0 1>;
+        };
     };
 
     macros {
