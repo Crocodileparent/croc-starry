@@ -159,19 +159,13 @@
 
         Layer1 {
             bindings = <&tog 1>;
-            key-positions = <4 5>;
+            key-positions = <56 60>;
             layers = <0 1>;
-        };
-
-        Layer3Rgt {
-            bindings = <&tog 3>;
-            key-positions = <34 33>;
-            layers = <0 3>;
         };
 
         Layer3Lft {
             bindings = <&tog 3>;
-            key-positions = <17 18>;
+            key-positions = <57 59>;
             layers = <0 3>;
         };
     };
