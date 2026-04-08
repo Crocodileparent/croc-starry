@@ -334,3 +334,9 @@ combos:
 - p: [57, 59]
   k: {t: layer3, h: toggle}
   l: [LAYER0, layer3]
+- p: [56, 27]
+  k: {t: layer1, h: toggle}
+  l: [LAYER0, layer1]
+- p: [60, 37]
+  k: {t: layer1, h: toggle}
+  l: [LAYER0, layer1]
